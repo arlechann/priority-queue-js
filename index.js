@@ -3,4 +3,8 @@ export default class PriorityQueue {
 		this.heap = [];
 		this.compare = comp;
 	}
+
+	isEmpty() {
+		return this.heap.length == 0;
+	}
 }
